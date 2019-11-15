@@ -1,0 +1,334 @@
+html {
+    margin: 0%;
+    padding: 0%;
+    width: 99vw;
+    height: 100%;
+    /* background: url('two.jpg') no-repeat; */
+    background-color: black;
+    background-size: 100vw;
+    overflow: hidden;
+}
+
+.bubble{
+    height: 100vh;
+    width: 100vw;
+}
+/* div of yellow point*/
+
+#yellow_point {
+    /* display: none; */
+}
+
+/* div of purple point*/
+
+#purple_point {
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+/* each yellow_point translation */
+
+#pointJ1 {
+    position: absolute;
+    height: 5vw;
+    margin-left: 38.6%;
+    margin-top: 5.5%;
+}
+
+#pointJ2 {
+    position: absolute;
+    height: 5vw;
+    margin-left: 55%;
+    margin-top: 7.5%;
+}
+
+#pointJ3 {
+    position: absolute;
+    height: 5vw;
+    margin-left: 61.5%;
+    margin-top: 19%;
+}
+
+#pointJ4 {
+    position: absolute;
+    height: 5vw;
+    margin-left: 57%;
+    margin-top: 34%;
+}
+
+#pointJ5 {
+    position: absolute;
+    height: 5vw;
+    margin-left: 42.3%;
+    margin-top: 38%;
+}
+
+#pointJ6 {
+    position: absolute;
+    height: 5vw;
+    margin-left: 29%;
+    margin-top: 29.5%;
+}
+
+#pointJ7 {
+    position: absolute;
+    height: 5vw;
+    margin-left: 27%;
+    margin-top: 15.8%;
+}
+
+#pointJ8 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 49%;
+    margin-top: 2%;
+}
+
+/* texte soi */
+
+#pointJ9 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 64%;
+    margin-top: 13%;
+}
+
+#soi {
+    font-family: 'Courier New', Courier, monospace;
+    color: cornsilk;
+    font-size: 1.5vw;
+    position: absolute;
+    height: 4vw;
+    margin-left: 65%;
+    margin-top: 14%;
+}
+
+/* #wordone{
+    position : absolute;
+    display: none;
+} */
+
+#pointJ10 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 64%;
+    margin-top: 30%;
+}
+
+#pointJ11 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 52%;
+    margin-top: 42%;
+}
+
+#pointJ12 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 34%;
+    margin-top: 39.5%;
+}
+
+/* Respect word*/
+
+#pointJ13 {
+    z-index: 1;
+    position: absolute;
+    height: 4vw;
+    margin-left: 23%;
+    margin-top: 24%;
+}
+
+#respect {
+    font-family: 'Courier New', Courier, monospace;
+    color: cornsilk;
+    z-index: 99;
+    position: absolute;
+    font-size: 0.5vw;
+    margin-left: 7% !important;
+    margin-top: 25%;
+}
+
+#pointJ14 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 28%;
+    margin-top: 7%;
+}
+
+/* each purple_point translation */
+
+/* center point */
+
+#pointM1 {
+    /* display: flex; */
+    z-index: 1;
+    position: absolute;
+    height: 13vw;
+    margin-left: 41%;
+    margin-top: 17%;
+}
+
+#textM1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: cornsilk;
+    font-size: 1.2vw;
+    z-index: 2;
+    position: absolute;
+    height: 13vw;
+    margin-left: 43.8%;
+    margin-top: 22.5%;
+    animation: 12s linear 0s infinite;
+}
+
+/* Seven point around first */
+
+#pointM2 {
+    position: absolute;
+    height: 7vw;
+    margin-left: 40%;
+    margin-top: 11%;
+}
+
+#pointM3 {
+    position: absolute;
+    height: 7vw;
+    margin-left: 50%;
+    margin-top: 11.5%;
+}
+
+#pointM4 {
+    position: absolute;
+    height: 7vw;
+    margin-left: 55%;
+    margin-top: 20%;
+}
+
+#pointM5 {
+    position: absolute;
+    height: 7vw;
+    margin-left: 51%;
+    margin-top: 28%;
+}
+
+#pointM6 {
+    position: absolute;
+    height: 7vw;
+    margin-left: 42%;
+    margin-top: 30.5%;
+}
+
+#pointM7 {
+    position: absolute;
+    height: 7vw;
+    margin-left: 35%;
+    margin-top: 25.5%;
+}
+
+#pointM8 {
+    position: absolute;
+    height: 7vw;
+    margin-left: 33%;
+    margin-top: 17.5%;
+}
+
+/* second round */
+
+#pointM9 {
+    position: absolute;
+    height: 5vw;
+    margin-left: 47%;
+    margin-top: 7%;
+}
+
+#pointM10 {
+    position: absolute;
+    height: 5vw;
+    margin-left: 58%;
+    margin-top: 14.5%;
+}
+
+#pointM11 {
+    position: absolute;
+    height: 5vw;
+    margin-left: 58%;
+    margin-top: 26.4%;
+}
+
+#pointM12 {
+    position: absolute;
+    height: 5vw;
+    margin-left: 49%;
+    margin-top: 35%;
+}
+
+#pointM13 {
+    position: absolute;
+    height: 5vw;
+    margin-left: 37%;
+    margin-top: 33.5%;
+}
+
+#pointM14 {
+    position: absolute;
+    height: 5vw;
+    margin-left: 29%;
+    margin-top: 23%;
+}
+
+#pointM15 {
+    position: absolute;
+    height: 5vw;
+    margin-left: 33%;
+    margin-top: 11%;
+}
+
+#pointM16 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 37%;
+    margin-top: 2%;
+}
+
+#pointM17 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 59%;
+    margin-top: 4.5%;
+}
+
+#pointM18 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 67%;
+    margin-top: 19.8%;
+}
+
+#pointM19 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 61%;
+    margin-top: 39%;
+}
+
+#pointM20 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 42.7%;
+    margin-top: 43%;
+}
+
+#pointM21 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 25%;
+    margin-top: 33%;
+}
+
+#pointM22 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 22%;
+    margin-top: 14%;
+}
