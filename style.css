@@ -1,18 +1,90 @@
 html {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     width: 99vw;
     height: 100%;
-    /* background: url('two.jpg') no-repeat; */
-    background-color: black;
+    background: url('3574.png');
+    /* background-color: black; */
     background-size: 100vw;
     overflow: hidden;
+    
 }
 
-.bubble{
-    height: 100vh;
-    width: 100vw;
+/* nav fixed on top */
+
+header {
+    position: fixed;
+    top: 0;
+    /* display: flex; */
+    background-color: #fff;
 }
+
+.nav {
+    margin-left: -8px;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 39px 36px -13px rgba(0,0,0,0.73);
+    -moz-box-shadow: 0px 39px 36px -13px rgba(0,0,0,0.73);
+    box-shadow: 0px 39px 36px -13px rgba(0,0,0,0.73);
+}
+
+.nav a {
+    margin-left: 10%;
+    text-decoration: none;
+    padding: 1.5vw 0 1vw 0;
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    width: 6%;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+
+.logoPro {
+    background-color: #fff;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.logoPro h1{
+    width: 80%;
+}
+#AGlogo {
+    height: 150px;
+    width: 10%;
+   
+}
+
+#partners {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    
+}
+#partners img{
+    height: 70%;
+}
+
+#syndsophro, #fepslogo {
+}
+
+/* .logoPro img {
+    width: 15%;
+} */
+
+/* Center */
+
+.bubble {
+    margin: 16vh 10vw;
+    position: absolute;
+    height: 80vh;
+    width: 80vw;
+}
+
 /* div of yellow point*/
 
 #yellow_point {
@@ -31,49 +103,49 @@ html {
 
 #pointJ1 {
     position: absolute;
-    height: 5vw;
+    height: 4vw;
     margin-left: 38.6%;
     margin-top: 5.5%;
 }
 
 #pointJ2 {
     position: absolute;
-    height: 5vw;
+    height: 4vw;
     margin-left: 55%;
     margin-top: 7.5%;
 }
 
 #pointJ3 {
     position: absolute;
-    height: 5vw;
+    height: 4vw;
     margin-left: 61.5%;
     margin-top: 19%;
 }
 
 #pointJ4 {
     position: absolute;
-    height: 5vw;
+    height: 4vw;
     margin-left: 57%;
     margin-top: 34%;
 }
 
 #pointJ5 {
     position: absolute;
-    height: 5vw;
+    height: 4vw;
     margin-left: 42.3%;
     margin-top: 38%;
 }
 
 #pointJ6 {
     position: absolute;
-    height: 5vw;
+    height: 4vw;
     margin-left: 29%;
     margin-top: 29.5%;
 }
 
 #pointJ7 {
     position: absolute;
-    height: 5vw;
+    height: 4vw;
     margin-left: 27%;
     margin-top: 15.8%;
 }
@@ -95,8 +167,8 @@ html {
 }
 
 #soi {
-    font-family: 'Courier New', Courier, monospace;
-    color: cornsilk;
+    font-family: 'Dancing Script', cursive;
+    color: black;
     font-size: 1.5vw;
     position: absolute;
     height: 4vw;
@@ -141,12 +213,12 @@ html {
 }
 
 #respect {
-    font-family: 'Courier New', Courier, monospace;
-    color: cornsilk;
+    font-family: 'Dancing Script', cursive;
+    color: black;
     z-index: 99;
     position: absolute;
     font-size: 0.5vw;
-    margin-left: 7% !important;
+    margin-left: 1% !important;
     margin-top: 25%;
 }
 
@@ -165,20 +237,21 @@ html {
     /* display: flex; */
     z-index: 1;
     position: absolute;
-    height: 13vw;
+    height: 11.5vw;
     margin-left: 41%;
     margin-top: 17%;
 }
 
-#textM1 {
-    font-family: 'Courier New', Courier, monospace;
-    color: cornsilk;
-    font-size: 1.2vw;
+#sophro {
+    letter-spacing: 1px;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 1.7vw;
     z-index: 2;
     position: absolute;
     height: 13vw;
     margin-left: 43.8%;
-    margin-top: 22.5%;
+    margin-top: 23%;
     animation: 12s linear 0s infinite;
 }
 
@@ -186,49 +259,49 @@ html {
 
 #pointM2 {
     position: absolute;
-    height: 7vw;
+    height: 6vw;
     margin-left: 40%;
     margin-top: 11%;
 }
 
 #pointM3 {
     position: absolute;
-    height: 7vw;
+    height: 6vw;
     margin-left: 50%;
     margin-top: 11.5%;
 }
 
 #pointM4 {
     position: absolute;
-    height: 7vw;
+    height: 6vw;
     margin-left: 55%;
     margin-top: 20%;
 }
 
 #pointM5 {
     position: absolute;
-    height: 7vw;
+    height: 6vw;
     margin-left: 51%;
     margin-top: 28%;
 }
 
 #pointM6 {
     position: absolute;
-    height: 7vw;
+    height: 6vw;
     margin-left: 42%;
     margin-top: 30.5%;
 }
 
 #pointM7 {
     position: absolute;
-    height: 7vw;
+    height: 6vw;
     margin-left: 35%;
     margin-top: 25.5%;
 }
 
 #pointM8 {
     position: absolute;
-    height: 7vw;
+    height: 6vw;
     margin-left: 33%;
     margin-top: 17.5%;
 }
@@ -237,98 +310,98 @@ html {
 
 #pointM9 {
     position: absolute;
-    height: 5vw;
+    height: 4vw;
     margin-left: 47%;
     margin-top: 7%;
 }
 
 #pointM10 {
     position: absolute;
-    height: 5vw;
+    height: 4vw;
     margin-left: 58%;
     margin-top: 14.5%;
 }
 
 #pointM11 {
     position: absolute;
-    height: 5vw;
+    height: 4vw;
     margin-left: 58%;
     margin-top: 26.4%;
 }
 
 #pointM12 {
     position: absolute;
-    height: 5vw;
+    height: 4vw;
     margin-left: 49%;
     margin-top: 35%;
 }
 
 #pointM13 {
     position: absolute;
-    height: 5vw;
+    height: 4vw;
     margin-left: 37%;
     margin-top: 33.5%;
 }
 
 #pointM14 {
     position: absolute;
-    height: 5vw;
+    height: 4vw;
     margin-left: 29%;
     margin-top: 23%;
 }
 
 #pointM15 {
     position: absolute;
-    height: 5vw;
+    height: 4vw;
     margin-left: 33%;
     margin-top: 11%;
 }
 
 #pointM16 {
     position: absolute;
-    height: 4vw;
+    height: 3vw;
     margin-left: 37%;
     margin-top: 2%;
 }
 
 #pointM17 {
     position: absolute;
-    height: 4vw;
+    height: 3vw;
     margin-left: 59%;
     margin-top: 4.5%;
 }
 
 #pointM18 {
     position: absolute;
-    height: 4vw;
+    height: 3vw;
     margin-left: 67%;
     margin-top: 19.8%;
 }
 
 #pointM19 {
     position: absolute;
-    height: 4vw;
+    height: 3vw;
     margin-left: 61%;
     margin-top: 39%;
 }
 
 #pointM20 {
     position: absolute;
-    height: 4vw;
+    height: 3vw;
     margin-left: 42.7%;
     margin-top: 43%;
 }
 
 #pointM21 {
     position: absolute;
-    height: 4vw;
+    height: 3vw;
     margin-left: 25%;
     margin-top: 33%;
 }
 
 #pointM22 {
     position: absolute;
-    height: 4vw;
+    height: 3vw;
     margin-left: 22%;
     margin-top: 14%;
 }

@@ -36,7 +36,7 @@ j12 = document.getElementById('pointJ12');
 j13 = document.getElementById('pointJ13');
 j14 = document.getElementById('pointJ14');
 
-t1 = document.getElementById('textM1');
+t1 = document.getElementById('sophro'); // text sophro
 
 function migrateT1() {
     t1.animate([
@@ -292,10 +292,9 @@ function wordOne() {
 setTimeout(function () {
     var x = document.getElementById('soi');
     x.style.fontSize = '6vw';
-    x.style.marginLeft = '66.4%';
+    x.style.marginLeft = '68%';
     x.style.marginTop = '13.3%';
     // x.style.color = 'white';
-    document.getElementById('pointJ9').style.height = '7vw';
 }, 7500);
 
 
@@ -312,7 +311,7 @@ function wordTwo() {
 }
 setTimeout(function () {
     var x = document.getElementById('respect');
-    x.style.fontSize = '5vw';
+    x.style.fontSize = '4vw';
     x.style.marginLeft = '13%';
-    x.style.marginTop = '23%';
+    x.style.marginTop = '24%';
 }, 6500);
